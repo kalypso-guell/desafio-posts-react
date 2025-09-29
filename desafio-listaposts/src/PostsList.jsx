@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 
-// Componente PostsList
 function PostsList() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -122,5 +121,4 @@ function PostsList() {
   );
 }
 
-
-export default PostsList
+export default PostsList;
